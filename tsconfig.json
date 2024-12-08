@@ -3,5 +3,9 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ]
+  ],
+  "compilerOptions": {
+    "noUnusedLocals": false, // Suppress warnings for unused local variables
+    "typeRoots": ["./node_modules/@types", "./src/types"] // Ensure custom type definitions are included
+  }
 }
