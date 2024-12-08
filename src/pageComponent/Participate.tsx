@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 import ParticipateComp from "../components/ParticipateComp";
 import CodingSvg from "../assets/Illustrations/undraw_programmer_re_owql.svg";
 import PrizeSvg from "../assets/Illustrations/undraw_gift_re_qr17.svg";
