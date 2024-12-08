@@ -63,11 +63,27 @@ const RealTimeDate: React.FC = () => {
                     </p>
                 </div>
             </div>
-            <div className="flex sm:flex-row font-bold justify-between items-center w-full gap-2">
-                <Btn2 name="Discord" link="https://discord.gg/hackunited" onClick={() => {}} className="w-10" />
-                <Btn2 name="Devpost" link="https://unitedhacksv4.devpost.com/" onClick={() => {}} className="w-10" />
-                <Btn2 name="Donate" link="https://hcb.hackclub.com/donations/start/hackunited" onClick={() => {}} className="w-10" />
+            <div className="font-bold flex justify-center -ml-8 w-full gap-20">
+                <Btn2
+                    name="Discord"
+                    link="https://discord.gg/hackunited"
+                    onClick={() => {}}
+                    className="w-10"
+                />
+                <Btn2
+                    name="Devpost"
+                    link="https://unitedhacksv4.devpost.com/"
+                    onClick={() => {}}
+                    className="w-10"
+                />
+                <Btn2
+                    name="Donate"
+                    link="https://hcb.hackclub.com/donations/start/hackunited"
+                    onClick={() => {}}
+                    className="w-10"
+                />
             </div>
+
         </div>
     );
 };
