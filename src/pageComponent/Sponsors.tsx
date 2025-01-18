@@ -8,6 +8,7 @@ import Genxyz from "../assets/Sponsors/genxyzLogo.webp"
 import InterviewCake from "../assets/Sponsors/interviewcakeLogo.webp"
 import Tintype from "../assets/Sponsors/tintypeLogo.webp"
 import TreeHouses from "../assets/Sponsors/Treehouse_logo.webp"
+
 const Sponsors = () => {
     return (
         <div className="flex flex-col items-center mx-4">
@@ -17,35 +18,35 @@ const Sponsors = () => {
             </p>
             <div className="mt-10 mx-10 flex flex-col gap-5 justify-center items-center lg:mx-40">
                 <div id="main" className="flex flex-wrap justify-center gap-2 lg:gap-6"> 
-                    <a href="#">
-                        <img src={CodeCrafter} alt="Placeholder Image" className="rounded p-2 border-2 border-zinc-400 h-14 lg:h-32" />
+                    <a href="https://codecrafters.io" target="_blank" rel="noopener noreferrer">
+                        <img src={CodeCrafter} alt="CodeCrafters" className="rounded p-2 border-2 border-zinc-400 h-14 lg:h-32" />
                     </a>
-                    <a href="#">
-                        <img src={TreeHouses} alt="Cover Image" className="rounded p-2 border-2 border-zinc-400 h-14 lg:h-32"/>
+                    <a href="https://teamtreehouse.com" target="_blank" rel="noopener noreferrer">
+                        <img src={TreeHouses} alt="Treehouse" className="rounded p-2 border-2 border-zinc-400 h-14 lg:h-32"/>
                     </a>
-                    <a href="#">
-                        <img src={Devitjobs} alt="Cover Image" className="rounded p-2 border-2 border-zinc-400 h-14 lg:h-32"/>
+                    <a href="https://devitjobs.us" target="_blank" rel="noopener noreferrer">
+                        <img src={Devitjobs} alt="DevItJobs" className="rounded p-2 border-2 border-zinc-400 h-14 lg:h-32"/>
                     </a>
-                    <a href="#">
-                        <img src={Genxyz} alt="Cover Image" className="rounded p-2 border-2 border-zinc-400 h-14 lg:h-32"/>
+                    <a href="https://gen.xyz" target="_blank" rel="noopener noreferrer">
+                        <img src={Genxyz} alt="Gen.xyz" className="rounded p-2 border-2 border-zinc-400 h-14 lg:h-32"/>
                     </a>
-                    <a href="#">
-                        <img src={InterviewCake} alt="Cover Image" className="rounded p-2 border-2 border-zinc-400 h-14 lg:h-32"/>
+                    <a href="https://www.interviewcake.com" target="_blank" rel="noopener noreferrer">
+                        <img src={InterviewCake} alt="Interview Cake" className="rounded p-2 border-2 border-zinc-400 h-14 lg:h-32"/>
                     </a>
-                    <a href="#">
-                        <img src={Balsamidq} alt="Cover Image" className="rounded p-2 border-2 border-zinc-400 h-14 lg:h-32"/>
+                    <a href="https://balsamiq.com" target="_blank" rel="noopener noreferrer">
+                        <img src={Balsamidq} alt="Balsamiq" className="rounded p-2 border-2 border-zinc-400 h-14 lg:h-32"/>
                     </a>
-                    <a href="#">
-                        <img src={Tintype} alt="Cover Image" className="rounded p-2 border-2 border-zinc-400 h-14 lg:h-32"/>
+                    <a href="https://trytintype.io/" target="_blank" rel="noopener noreferrer">
+                        <img src={Tintype} alt="Tintype" className="rounded p-2 border-2 border-zinc-400 h-14 lg:h-32"/>
                     </a>
-                    <a href="#">
-                        <img src={Aops} alt="Cover Image" className="rounded p-2 border-2 border-zinc-400 h-14 lg:h-32"/>
+                    <a href="https://artofproblemsolving.com" target="_blank" rel="noopener noreferrer">
+                        <img src={Aops} alt="AoPS" className="rounded p-2 border-2 border-zinc-400 h-14 lg:h-32"/>
                     </a>
-                    <a href="#">
-                        <img src={Cocalc} alt="Cover Image" className="rounded p-2 border-2 border-zinc-400 h-14 lg:h-32"/>
+                    <a href="https://cocalc.com" target="_blank" rel="noopener noreferrer">
+                        <img src={Cocalc} alt="CoCalc" className="rounded p-2 border-2 border-zinc-400 h-14 lg:h-32"/>
                     </a>
-                    <a href="#">
-                        <img src={Desmos} alt="Cover Image" className="rounded p-2 border-2 border-zinc-400 h-14 lg:h-32"/>
+                    <a href="https://www.desmos.com" target="_blank" rel="noopener noreferrer">
+                        <img src={Desmos} alt="Desmos" className="rounded p-2 border-2 border-zinc-400 h-14 lg:h-32"/>
                     </a>
                 </div>
             </div>
